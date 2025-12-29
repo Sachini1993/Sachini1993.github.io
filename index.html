@@ -3,310 +3,727 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
-    <link rel ="stylesheet" href="./style.css">
+    <meta name="description" content="Sachini Alwis - QA Engineer & Software Testing Professional. 7+ years experience in test automation, Selenium, Playwright, Java, Python. Based in Tampere, Finland.">
+    <meta name="keywords" content="QA Engineer, Software Testing, Test Automation, Selenium, Playwright, Finland, Tampere">
+    <meta name="author" content="Sachini Alwis">
     
-    <title>Sachini Alwis - Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Sachini Alwis | QA Engineer & Test Automation Specialist</title>
 </head>
 <body>
 
-   <!--header codes-->
+   <!-- Navigation Header -->
     <header class="header">
-        <a href="#home" class="logo">Sachini Alwis &#127810;</a>
+        <a href="#home" class="logo">Sachini Alwis</a>
         <i class="bx bx-menu" id="menu-icon"></i> 
 
-       <nav class="nevbar">
-            <a href ="#home">About</a>
-            <!--<a href ="#Experiance">Experiance</a>-->
-            <a href ="#Services">Services</a>
-            <a href ="#Projects">Projects</a>
-            <a href ="#Skills">Skills</a>
-            <a href ="#Contact">Contact</a>
+       <nav class="navbar">
+            <a href="#home" class="active">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!---Home Section -->
+    <!-- Hero Section -->
     <section class="home" id="home">
-      <div class="home-img">
-    <img src="./assets/Profime_image.jpg" alt="Profile image">
-</div>
-
+        <div class="home-img">
+            <img src="./assets/Profime_image.jpg" alt="Sachini Alwis - QA Engineer">
+        </div>
 
         <div class="home_content">
-            <h3>About Me</h3>
+            <h3>Hello, I'm</h3>
             <h1>Sachini Alwis</h1>
-            <h3>I am <span class="multi_text">QA Engineer</span></h3>
-            <p>I’m a Software Quality Assurance Engineer with over 7 years of experience
-across banking, fintech, insurance, tourism, and apparel industries. Skilled
-in manual and automation testing using Playwright, Selenium, Postman,
-Java, and Python, I’m passionate about quality, data accuracy, and
-innovation. Currently based in Tampere, Finland, I’m pursuing an MSc in
-Artificial Intelligence at the University of Moratuwa and a B.Eng. in
-Software Engineering at Tampere University of Applied Sciences. I’m fluent
-in English (C1 level) and have strong communication skills for
-collaborating in multicultural and technical environments. I’m eager to
-contribute my expertise in AI quality assurance and ethical model
-development.</p>
+            <h3>QA Engineer & <span class="multi_text">Test Automation Specialist</span></h3>
+            <p>Results-driven QA Engineer with 7+ years of experience delivering quality software across banking, fintech, insurance, tourism, and apparel sectors. Expert in test automation using Selenium, Playwright, and Postman, with strong programming skills in Java and Python. Proven track record of collaborating with overseas stakeholders in multicultural environments. Languages: IELTS 6 (English) | Finnish - Beginner level.</p>
+            
+            <div class="home_highlights">
+                <div class="highlight_item">
+                    <i class="bx bx-check-circle"></i>
+                    <span>7+ Years Experience</span>
+                </div>
+                <div class="highlight_item">
+                    <i class="bx bx-check-circle"></i>
+                    <span>20+ Projects Delivered</span>
+                </div>
+                <div class="highlight_item">
+                    <i class="bx bx-check-circle"></i>
+                    <span>AI & ML Focus</span>
+                </div>
+            </div>
 
+            <div class="cta_buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="./assets/SachiniAlwisCV.pdf" download class="btn btn-secondary">
+                    <i class="bx bx-download"></i> Download CV
+                </a>
+            </div>
           
             <div class="social_media">
-    <a href="https://github.com/Sachini1993" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-github"></i>
-    </a>
+                <a href="https://github.com/Sachini1993" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sachini-alwis-a6232b161/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+              <a href="https://discord.com/users/samsac1" target="_blank" rel="noopener noreferrer" aria-label="Discord Profile">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="https://medium.com/@vibodhasachini0" target="_blank" rel="noopener noreferrer" aria-label="Medium Blog">
+                    <i class="fa-brands fa-medium"></i>
+                </a>
+            </div>
+        </div>
+    </section>
 
-    <a href="https://www.facebook.com/profile.php?id=61583297445941" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-facebook"></i>
-    </a>
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Professional <span>Experience</span></h2>
+        
+        <div class="timeline">
+            <div class="timeline_item">
+                <div class="timeline_dot"></div>
+                <div class="timeline_content">
+                    <h3>QA Engineer</h3>
+                    <span class="timeline_date">2021 - 2025</span>
+                    <p class="timeline_company">Virtusa Pvt (Ltd) | <a href="https://www.virtusa.com/" target="_blank" style="color: #34D399;">www.virtusa.com</a></p>
+                    <ul class="timeline_responsibilities">
+                        <li>Led test automation initiatives across 20+ enterprise applications in banking, fintech, and insurance domains</li>
+                        <li>Collaborated with overseas stakeholders across UK, Dubai, and Russia to deliver quality solutions</li>
+                        <li>Designed and implemented automated testing frameworks using Selenium, Playwright, and Java</li>
+                        <li>Reduced manual testing effort by 60% through comprehensive automation strategies</li>
+                        <li>Conducted API testing using Postman and REST Assured for microservices architecture</li>
+                        <li>Mentored junior QA engineers on best practices, automation tools, and Agile methodologies</li>
+                    </ul>
+                    <div class="tech_tags">
+                        <span class="tag">Selenium</span>
+                        <span class="tag">Playwright</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Postman</span>
+                        <span class="tag">JIRA</span>
+                        <span class="tag">Git</span>
+                    </div>
+                </div>
+            </div>
 
-    <a href="https://www.instagram.com/?nux=1" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-instagram"></i>
-    </a>
+            <div class="timeline_item">
+                <div class="timeline_dot"></div>
+                <div class="timeline_content">
+                    <h3>QA Executive</h3>
+                    <span class="timeline_date">2020 - 2021</span>
+                    <p class="timeline_company">Zephr Solutions Pvt (Ltd)</p>
+                    <ul class="timeline_responsibilities">
+                        <li>Executed comprehensive test plans for web and mobile applications</li>
+                        <li>Performed functional, regression, and integration testing across multiple projects</li>
+                        <li>Collaborated with development teams to identify and resolve defects efficiently</li>
+                        <li>Created detailed test documentation and reports for stakeholders</li>
+                        <li>Participated in Agile ceremonies and contributed to sprint planning</li>
+                    </ul>
+                    <div class="tech_tags">
+                        <span class="tag">Manual Testing</span>
+                        <span class="tag">Test Cases</span>
+                        <span class="tag">Bug Tracking</span>
+                        <span class="tag">Agile/Scrum</span>
+                    </div>
+                </div>
+            </div>
 
-    <a href="https://www.linkedin.com/in/sachini-alwis-a6232b161/" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-linkedin"></i>
+            <div class="timeline_item">
+                <div class="timeline_dot"></div>
+                <div class="timeline_content">
+                    <h3>QA Management Trainee</h3>
+                    <span class="timeline_date">2019 - 2020</span>
+                    <p class="timeline_company">Ben Worldwide | <a href="https://benworldwide.com/" target="_blank" style="color: #34D399;">www.benworldwide.com</a></p>
+                    <ul class="timeline_responsibilities">
+                        <li>Assisted in quality assurance activities for enterprise applications</li>
+                        <li>Learned software testing methodologies and best practices</li>
+                        <li>Supported senior QA engineers in test case creation and execution</li>
+                        <li>Gained exposure to international project management standards</li>
+                    </ul>
+                    <div class="tech_tags">
+                        <span class="tag">QA Fundamentals</span>
+                        <span class="tag">Test Planning</span>
+                        <span class="tag">Documentation</span>
+                    </div>
+                </div>
+            </div>
 
-    </a>
-</div>
+            <div class="timeline_item">
+                <div class="timeline_dot"></div>
+                <div class="timeline_content">
+                    <h3>Intern</h3>
+                    <span class="timeline_date">2018 - 2019</span>
+                    <p class="timeline_company">Orange IT</p>
+                    <ul class="timeline_responsibilities">
+                        <li>Introduced to software development lifecycle and testing processes</li>
+                        <li>Assisted in basic testing activities and defect logging</li>
+                        <li>Learned industry-standard tools and technologies</li>
+                        <li>Developed foundational skills in quality assurance</li>
+                    </ul>
+                    <div class="tech_tags">
+                        <span class="tag">SDLC</span>
+                        <span class="tag">Testing Basics</span>
+                        <span class="tag">Team Collaboration</span>
+                    </div>
+                </div>
+            </div>
 
+            <div class="timeline_item">
+                <div class="timeline_dot"></div>
+                <div class="timeline_content">
+                    <h3>Education & Continuous Learning</h3>
+                    <span class="timeline_date">2015 - Present</span>
+                    <ul class="timeline_responsibilities">
+                        <li><strong>Bachelor of Engineering in Software Engineering</strong> - Tampere University of Applied Sciences, Finland (Currently studying, 1st year)</li>
+                        <li><strong>PG Diploma in Artificial Intelligence</strong> - University of Moratuwa, Sri Lanka (Completed)</li>
+                        <li><strong>Bachelor of Science in Information Systems</strong> - General Sir John Kotelawala Defence University, Sri Lanka (Completed)</li>
+                        <li>Focus on AI quality assurance, ethical model development, and software engineering practices</li>
+                        <li><strong>Language Proficiency:</strong> IELTS 6 (English) | Finnish - Beginner level</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services_container">
+            <!-- Service 1 -->
+            <div class="service_card">
+                <div class="service_icon">
+                    <i class="bx bx-bug"></i>
+                </div>
+                <h3>QA & Software Testing</h3>
+                <p>Comprehensive quality assurance services including functional, regression, integration, and performance testing. Delivered quality for 20+ applications across multiple industries.</p>
+                <ul class="service_features">
+                    <li><i class="bx bx-check"></i> Manual & Automated Testing</li>
+                    <li><i class="bx bx-check"></i> Test Strategy & Planning</li>
+                    <li><i class="bx bx-check"></i> Bug Tracking & Reporting</li>
+                    <li><i class="bx bx-check"></i> CI/CD Integration</li>
+                </ul>
+                <a href="#contact" class="btn btn-service">Get Started</a>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service_card featured">
+                <div class="featured_badge">Most Popular</div>
+                <div class="service_icon">
+                    <i class="bx bx-code-alt"></i>
+                </div>
+                <h3>Test Automation</h3>
+                <p>Design and implementation of robust test automation frameworks using industry-leading tools. Reduce testing cycles and improve software reliability.</p>
+                <ul class="service_features">
+                    <li><i class="bx bx-check"></i> Selenium & Playwright</li>
+                    <li><i class="bx bx-check"></i> API Testing (Postman/REST)</li>
+                    <li><i class="bx bx-check"></i> Framework Development</li>
+                    <li><i class="bx bx-check"></i> Custom Test Scripts</li>
+                </ul>
+                <a href="#contact" class="btn btn-service">Get Started</a>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service_card">
+                <div class="service_icon">
+                    <i class="bx bx-laptop"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Full-stack web development services including company profiles, e-commerce platforms, and responsive web applications using modern technologies.</p>
+                <ul class="service_features">
+                    <li><i class="bx bx-check"></i> HTML, CSS, JavaScript</li>
+                    <li><i class="bx bx-check"></i> Responsive Design</li>
+                    <li><i class="bx bx-check"></i> E-commerce Solutions</li>
+                    <li><i class="bx bx-check"></i> Performance Optimization</li>
+                </ul>
+                <a href="#contact" class="btn btn-service">Get Started</a>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service_card">
+                <div class="service_icon">
+                    <i class="bx bx-brain"></i>
+                </div>
+                <h3>AI/ML Quality Assurance</h3>
+                <p>Specialized testing for AI and machine learning models, ensuring accuracy, fairness, and ethical implementation in production systems.</p>
+                <ul class="service_features">
+                    <li><i class="bx bx-check"></i> Model Validation</li>
+                    <li><i class="bx bx-check"></i> Data Quality Testing</li>
+                    <li><i class="bx bx-check"></i> Bias Detection</li>
+                    <li><i class="bx bx-check"></i> Performance Metrics</li>
+                </ul>
+                <a href="#contact" class="btn btn-service">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <h2 class="heading">Featured <span>Projects</span></h2>
+
+        <div class="project_container_grid">
+
+            <div class="project_card">
+                <div class="project_image_wrapper">
+                    <img src="assets/BT.jpg" alt="British Telecommunication Project" class="project_image">
+                    <div class="project_overlay">
+                        <span class="project_category">Telecommunications</span>
+                    </div>
+                </div>
+                <div class="project_info">
+                    <h3 class="project_name">British Telecommunication</h3>
+                    <p class="project_description">End-to-end testing for UK's leading telecommunications provider. Implemented automated testing framework reducing manual testing effort by 65%.</p>
+                    <div class="project_tech">
+                        <span class="tech_badge">Selenium</span>
+                        <span class="tech_badge">Java</span>
+                        <span class="tech_badge">API Testing</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_card">
+                <div class="project_image_wrapper">
+                    <img src="assets/Activequote.jpg" alt="Active Quote Insurance Platform" class="project_image">
+                    <div class="project_overlay">
+                        <span class="project_category">Insurance</span>
+                    </div>
+                </div>
+                <div class="project_info">
+                    <h3 class="project_name">Active Quote</h3>
+                    <p class="project_description">Quality assurance for UK-based insurance platform. Conducted comprehensive functional and regression testing ensuring data accuracy and compliance.</p>
+                    <div class="project_tech">
+                        <span class="tech_badge">Manual Testing</span>
+                        <span class="tech_badge">Postman</span>
+                        <span class="tech_badge">SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_card">
+                <div class="project_image_wrapper">
+                    <img src="assets/Fortude.jpg" alt="Fortude Apparel Management System" class="project_image">
+                    <div class="project_overlay">
+                        <span class="project_category">ERP System</span>
+                    </div>
+                </div>
+                <div class="project_info">
+                    <h3 class="project_name">Fortude</h3>
+                    <p class="project_description">Testing of enterprise resource planning system for Brandix apparel. Validated complex workflows and data integrity across multiple modules.</p>
+                    <div class="project_tech">
+                        <span class="tech_badge">System Testing</span>
+                        <span class="tech_badge">Integration</span>
+                        <span class="tech_badge">Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_card">
+                <div class="project_image_wrapper">
+                    <img src="assets/Platinum-Heritage.jpg" alt="Platinum Heritage Tourism Platform" class="project_image">
+                    <div class="project_overlay">
+                        <span class="project_category">Tourism</span>
+                    </div>
+                </div>
+                <div class="project_info">
+                    <h3 class="project_name">Platinum Heritage</h3>
+                    <p class="project_description">Quality assurance for Dubai's premium tourism booking platform. Ensured seamless user experience across web and mobile applications.</p>
+                    <div class="project_tech">
+                        <span class="tech_badge">Mobile Testing</span>
+                        <span class="tech_badge">UI/UX Testing</span>
+                        <span class="tech_badge">Playwright</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_card">
+                <div class="project_image_wrapper">
+                    <img src="assets/Envier.jpg" alt="Envair Content Platform" class="project_image">
+                    <div class="project_overlay">
+                        <span class="project_category">Digital Content</span>
+                    </div>
+                </div>
+                <div class="project_info">
+                    <h3 class="project_name">Envair</h3>
+                    <p class="project_description">Web development and content creation for Finnish environmental technology company. Built responsive website with modern design principles.</p>
+                    <div class="project_tech">
+                        <span class="tech_badge">Web Dev</span>
+                        <span class="tech_badge">HTML/CSS/JS</span>
+                        <span class="tech_badge">SEO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_card">
+                <div class="project_image_wrapper">
+                    <img src="assets/Hi end sys.jpg" alt="Hi End Systems Fintech Platform" class="project_image">
+                    <div class="project_overlay">
+                        <span class="project_category">Fintech</span>
+                    </div>
+                </div>
+                <div class="project_info">
+                    <h3 class="project_name">Hi End Systems</h3>
+                    <p class="project_description">Comprehensive testing of Russian fintech platform. Performed security testing, API validation, and compliance checks for financial transactions.</p>
+                    <div class="project_tech">
+                        <span class="tech_badge">Security Testing</span>
+                        <span class="tech_badge">API</span>
+                        <span class="tech_badge">Compliance</span>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
 
-    
-    <!--Services-->
-    <section class="Services" id="Services">
-    <h2 class="heading">My <span>Services</span></h2>
+    <!-- Skills Section -->
+    <section class="skills section container" id="skills">
+        <h2 class="heading">Technical <span>Skills</span></h2>
 
-    <div class="Services-boxes">
-        <!-- Service Box 1 -->
-        <div class="Services-box">
-            <i class="bx bx-bug"></i>
-            <h2>Software Testing </h2>
-            <p>
-                I have tested 20+ software, mobile apps, and applications. 
-            </p>
-           <a href="#" class="btn read-more">Read More</a>
+        <div class="skills_container grid">
+
+            <!-- Testing & Automation -->
+            <div class="skill_content">
+                <h3 class="skills_title">
+                    <i class="bx bx-bug-alt"></i>
+                    Testing & Automation
+                </h3>
+
+                <div class="skill_list_grid">
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Selenium WebDriver</p>
+                            <span class="skills_num">90%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage selenium"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Playwright</p>
+                            <span class="skills_num">85%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage playwright"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Postman/API Testing</p>
+                            <span class="skills_num">88%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage postman"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">JUnit/TestNG</p>
+                            <span class="skills_num">82%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage junit"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skill_content">
+                <h3 class="skills_title">
+                    <i class="bx bx-code-alt"></i>
+                    Programming Languages
+                </h3>
+
+                <div class="skill_list_grid">
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Java</p>
+                            <span class="skills_num">80%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage java"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Python</p>
+                            <span class="skills_num">78%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage python"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">JavaScript</p>
+                            <span class="skills_num">75%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage javascript"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">SQL</p>
+                            <span class="skills_num">85%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage sql"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill_content">
+                <h3 class="skills_title">
+                    <i class="bx bx-laptop"></i>
+                    Web Development
+                </h3>
+
+                <div class="skill_list_grid">
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">HTML5 & CSS3</p>
+                            <span class="skills_num">90%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage html"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Responsive Design</p>
+                            <span class="skills_num">88%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage responsive"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">React/Frontend Frameworks</p>
+                            <span class="skills_num">70%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage react"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Git & Version Control</p>
+                            <span class="skills_num">85%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage git"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Methodologies -->
+            <div class="skill_content">
+                <h3 class="skills_title">
+                    <i class="bx bx-wrench"></i>
+                    Tools & Methodologies
+                </h3>
+
+                <div class="skill_list_grid">
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Agile/Scrum</p>
+                            <span class="skills_num">92%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage agile"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">JIRA/Confluence</p>
+                            <span class="skills_num">88%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage jira"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">CI/CD (Jenkins/GitLab)</p>
+                            <span class="skills_num">75%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage cicd"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skill_title">
+                            <p class="skill_name">Docker/Containerization</p>
+                            <span class="skills_num">70%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage docker"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <!-- Service Box 2 -->
-        <div class="Services-box">
-            <i class="bx bx-laptop"></i>
-            <h2>Web Development</h2>
-            <p>
-                I developed company profiles, e-comerce web sites.
-            </p>
-            <a href="#" class="btn read-more">Read More</a>
+        <!-- Certifications & Additional Skills -->
+        <div class="additional_skills">
+            <h3 class="skills_subtitle">Additional Competencies</h3>
+            <div class="skills_tags">
+                <span class="skill_tag">AI/ML Testing</span>
+                <span class="skill_tag">Performance Testing</span>
+                <span class="skill_tag">Security Testing</span>
+                <span class="skill_tag">Mobile Testing (iOS/Android)</span>
+                <span class="skill_tag">Cross-browser Testing</span>
+                <span class="skill_tag">REST API</span>
+                <span class="skill_tag">MySQL/PostgreSQL</span>
+                <span class="skill_tag">Test Documentation</span>
+                <span class="skill_tag">Regression Testing</span>
+                <span class="skill_tag">Load Testing</span>
+                <span class="skill_tag">Stakeholder Management</span>
+                <span class="skill_tag">International Collaboration</span>
+                <span class="skill_tag">Test Strategy</span>
+                <span class="skill_tag">CI/CD Pipeline</span>
+                <span class="skill_tag">TestNG/JUnit</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get In <span>Touch</span></h2>
+        <p class="contact_subtitle">Have a project in mind? Let's discuss how I can help ensure your software quality.</p>
+
+        <div class="contact_container">
+
+            <!-- LEFT: Contact Info -->
+            <div class="contact_info">
+                <div class="contact_card">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:vibodhasachini0@gmail.com">vibodhasachini0@gmail.com</a>
+                </div>
+
+                <div class="contact_card">
+                    <i class="bx bx-phone"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:+358449529438">+358 44 952 9438</a>
+                </div>
+
+                <div class="contact_card">
+                    <i class="bx bx-map"></i>
+                    <h3>Location</h3>
+                    <p>33720,Tampere, Finland</p>
+                    <span class="availability">Available for remote & on-site/open to relocate</span>
+                </div>
+
+                <!-- Download CV button -->
+                <a href="./assets/SachiniAlwisCV.pdf" download class="btn download_cv">
+                    <i class="bx bx-download"></i> Download Resume
+                </a>
+            </div>
+
+            <!-- RIGHT: Contact Form -->
+            <div class="contact_form_container">
+                <form action="https://formspree.io/f/xgvekvzo" method="POST" class="contact_form" id="contactForm">
+                    <div class="input_box">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="input_box">
+                        <input type="tel" name="phone" placeholder="Phone Number">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </div>
+
+                    <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn-submit">
+                        <i class="bx bx-send"></i> Send Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="footer_info">
+                <h3>Sachini Alwis</h3>
+                <p>QA Engineer & Test Automation Specialist</p>
+                <p class="footer_email">vibodhasachini0@gmail.com</p>
+            </div>
+
+            <div class="footer_links">
+                <h4>Quick Links</h4>
+                <a href="#home">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer_social">
+                <h4>Connect With Me</h4>
+                <div class="social_links">
+                    <a href="https://github.com/Sachini1993" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sachini-alwis-a6232b161/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                   <a href="https://discord.com/users/samsac1" target="_blank" rel="noopener noreferrer" aria-label="Discord Profile">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                    <a href="https://medium.com/@vibodhasachini0" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+                        <i class="fa-brands fa-medium"></i>
+                    </a>
+                </div>
+            </div>
         </div>
 
-      <!-- Service Box 2 -->
-        <div class="Services-box">
-            <i class="bx bx-edit"></i>
-            <h2>Content creater</h2>
-            <p>
-                I am creating social media content like linked in, facebook
-            </p>
-            <a href="#" class="btn read-more">Read More</a>
+        <div class="footer_bottom">
+            <p>&copy; 2024 Sachini Alwis. All Rights Reserved.</p>
+            <p>Designed & Developed with <i class="bx bx-heart"></i> by Sachini Alwis</p>
         </div>
+    </footer>
 
-    </div>
-</section>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll_top" aria-label="Scroll to top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </button>
 
-<!--Project Code-->
-<section class="projects section" id="Projects">
-  <h2 class="heading">My <span>Projects</span></h2>
-
-  <div class="project_container_grid">
-
-    <div class="project_card">
-      <img src="assets/BT.jpg" alt="BT Project" class="project_image">
-      <h3 class="project_name">British Telecommunication</h3>
-      <p class="project_description">UK based Telco project</p>
-    </div>
-
-    <div class="project_card">
-      <img src="assets/Activequote.jpg" alt="Active Quote" class="project_image">
-      <h3 class="project_name">Active Quote</h3>
-      <p class="project_description">UK based insurance project</p>
-    </div>
-
-    <div class="project_card">
-      <img src="assets/Fortude.jpg" alt="Fortude" class="project_image">
-      <h3 class="project_name">Fortude</h3>
-      <p class="project_description">Sri Lankan Brandix apparel project</p>
-    </div>
-
-    <div class="project_card">
-      <img src="assets/Platinum-Heritage.jpg" alt="Platinum Heritage" class="project_image">
-      <h3 class="project_name">Platinum Heritage</h3>
-      <p class="project_description">Dubai tourism project</p>
-    </div>
-
-    <div class="project_card">
-      <img src="assets/Envier.jpg" alt="Envair" class="project_image">
-      <h3 class="project_name">Envair</h3>
-      <p class="project_description">Finland content creation project</p>
-    </div>
-
-    <div class="project_card">
-      <img src="assets/Hi end sys.jpg" alt="Hi End Sys" class="project_image">
-      <h3 class="project_name">Hi End Sys</h3>
-      <p class="project_description">Russian fintech project</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- Skills Section -->
-<section class="section container" id="Skills">
-  <h2 class="heading">My <span>Skills</span></h2>
-
-  <div class="skills_container grid">
-
-    <!-- Testing Skills -->
-    <div class="skill_content">
-      <h3 class="skills_title text-sm">Testing</h3>
-
-      <div class="skill_list_grid">
-        <div class="skills_data">
-          <div class="skill_title">
-            <p class="skill_name text-sm">Selenium</p>
-            <span class="skills_num text-sm">90%</span>
-          </div>
-          <div class="skills_bar">
-            <span class="skills_percentage" style="width:90%"></span>
-          </div>
-        </div>
-
-        <div class="skills_data">
-          <div class="skill_title">
-            <p class="skill_name text-sm">Java</p>
-            <span class="skills_num text-sm">80%</span>
-          </div>
-          <div class="skills_bar">
-            <span class="skills_percentage" style="width:80%"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Web & Content -->
-    <div class="skill_content">
-      <h3 class="skills_title text-sm">Web & Content Creation</h3>
-
-      <div class="skill_list_grid">
-        <div class="skills_data">
-          <div class="skill_title">
-            <p class="skill_name text-sm">HTML, CSS, JS</p>
-            <span class="skills_num text-sm">82%</span>
-          </div>
-          <div class="skills_bar">
-            <span class="skills_percentage" style="width:82%"></span>
-          </div>
-        </div>
-
-        <div class="skills_data">
-          <div class="skill_title">
-            <p class="skill_name text-sm">Canva</p>
-            <span class="skills_num text-sm">60%</span>
-          </div>
-          <div class="skills_bar">
-            <span class="skills_percentage" style="width:60%"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!--Contact Code-->
-<section class="Contact" id="Contact">
-  <h2 class="heading">Contact <span>Me</span></h2>
-
-  <div class="contact_container">
-
-    <!-- LEFT: Contact Info -->
-    <div class="contact_info">
-      <div class="contact_card">
-        <i class="bx bx-envelope"></i>
-        <h3>Email</h3>
-        <p>sachini.alwis@email.com</p>
-      </div>
-
-      <div class="contact_card">
-        <i class="bx bx-phone"></i>
-        <h3>Phone</h3>
-        <p>+358449529438</p>
-      </div>
-
-      <div class="contact_card">
-        <i class="bx bx-map"></i>
-        <h3>Address</h3>
-        <p>Tampere, Finland</p>
-      </div>
-
-      <!-- Download CV button -->
-      <a href="./assets/SachiniAlwisCV.pdf" download class="btn download_cv">
-        <i class="bx bx-download"></i> Download CV
-      </a>
-    </div>
-
-    <!-- RIGHT: Contact Form -->
-    <div class="contact_form_container">
-      
-      <form action="#" class="contact_form">
-        <div class="input_box">
-          <input type="text" placeholder="Full Name" required>
-          <input type="email" placeholder="Email Address" required>
-        </div>
-
-        <div class="input_box">
-          <input type="number" placeholder="Phone Number">
-          <input type="text" placeholder="Email Subject">
-        </div>
-
-        <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
-
-        <input type="submit" value="Send Message" class="btn">
-      </form>
-    </div>
-
-  </div>
-</section>
-
-
-<!--Footer code-->
-
-<footer class="footer">
-    <div class="f_links">
-         <a href="https://github.com/Sachini1993" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-github"></i>
-    </a>
-
-    <a href="https://www.facebook.com/profile.php?id=61583297445941" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-facebook"></i>
-    </a>
-
-    <a href="https://www.instagram.com/?nux=1" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-instagram"></i>
-    </a>
-
-    <a href="https://www.linkedin.com/in/sachini-alwis-a6232b161/" target="_blank" class="social-icon" style="color:#34D399 ;">
-        <i class="fa-brands fa-linkedin"></i>
-
-    </a>
-    <p class="copyright">
-        &copy;Sachini Alwis - All Right Reserved
-    </p>
-
-    </div>
-</footer>
-
-   <script src="./script.js"></script>
-
+    <script src="./script.js"></script>
 
 </body>
 </html>
